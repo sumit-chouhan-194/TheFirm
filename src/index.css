@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap");
+.ff_lora {
+  font-family: "Lora";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ff_Nunito {
+  font-family: "Nunito";
+}
+:root {
+  /* -------------font-size----------------------- */
+  --fs-xsm: 12px;
+  --fs-sm: 14px;
+  --fs-md: 17px;
+  --fs-lg: 18px;
+  --fs-xl: 24px;
+  --fs-2xl: 30px;
+  --fs-3xl: 44px;
+  --fs-4xl: 48px;
+  /* -------------------colors------------------------ */
+  --clr-black: #1e1e1e;
+  --clr-white: #ffff;
+  --clr-yellow: #faca10;
+  --clr-offwhite: #f7f7f7;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.txt_black {
+  color: var(--clr-black);
+}
+.txt_white {
+  color: var(--clr-white);
+}
+.txt_yellow {
+  color: var(--clr-yellow);
+}
+.bg_black {
+  background-color: var(--clr-black);
+}
+.bg_white {
+  background-color: var(--clr-white);
+}
+.bg_yellow {
+  background-color: var(--clr-yellow);
+}
+.bg_offwhite {
+  background-color: var(--clr-offwhite);
 }
