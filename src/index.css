@@ -20,6 +20,8 @@
   --clr-white: #ffff;
   --clr-yellow: #faca10;
   --clr-offwhite: #f7f7f7;
+  --bg_gray: #f2f2f2;
+  --bg_darkgray: #fbfbfb;
 }
 .fs_xsm {
   font-size: var(--fs-xsm);
@@ -47,6 +49,12 @@
 }
 .txt_black {
   color: var(--clr-black);
+}
+.bg_gray {
+  background-color: var(--bg_gray);
+}
+.bg_darkgray {
+  background-color: var(--bg_darkgray);
 }
 .txt_white {
   color: var(--clr-white);
